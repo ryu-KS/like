@@ -12,6 +12,8 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
+require_once dirname(__FILE__) . '/includes/wordpress-stubs.php';
+
 define('YESORNO_VERSION', '1.3.14');
 define('YESORNO_FILE', __FILE__);
 define('YESORNO_DIR', plugin_dir_path(__FILE__));
