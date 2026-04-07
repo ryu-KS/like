@@ -1,0 +1,23 @@
+[
+    {
+        "id": "sunrise-path",
+        "title": "Sunrise Path",
+        "description": "Keep your pace steady today and your opportunity grows naturally.",
+        "face_image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+        "back_image_url": ""
+    },
+    {
+        "id": "calm-ocean",
+        "title": "Calm Ocean",
+        "description": "Clear emotions first. The right words arrive more easily afterward.",
+        "face_image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+        "back_image_url": ""
+    },
+    {
+        "id": "golden-key",
+        "title": "Golden Key",
+        "description": "A useful offer can appear. Validate terms before committing.",
+        "face_image_url": "https://koreahi.com/wp-content/uploads/2026/04/b5.jpg",
+        "back_image_url": "https://koreahi.com/wp-content/uploads/2026/04/b2.jpg"
+    }
+]

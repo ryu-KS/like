@@ -1,0 +1,303 @@
+﻿{
+  "basic": {
+    "id": "life-mode-sample-v1",
+    "title": "라이프 모드 밸런스 테스트",
+    "slug_alias": "life-mode-balance",
+    "description": "YES/NO 카드로 현재 생활 패턴과 의사결정 성향을 빠르게 확인합니다.",
+    "card_back_image_url": "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+    "start_image_url": "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+    "front_overlay_background": "linear-gradient(185deg, rgb(93 162 255 / 12%), rgb(18 9 11 / 72%))",
+    "back_overlay_background": "linear-gradient(185deg, rgb(93 162 255 / 12%), rgb(18 9 11 / 72%))",
+    "prism_background": "linear-gradient(110deg, rgba(255, 255, 255, 0.05) 18%, rgba(255, 107, 129, 0.3) 32%, rgba(92, 245, 255, 0.26) 48%, rgba(255, 201, 107, 0.34) 64%, rgba(255, 255, 255, 0.05) 78%)",
+    "display_count": 10,
+    "pool_count": 20,
+    "groups_quota": {
+      "A": 2,
+      "B": 2,
+      "C": 2,
+      "D": 2,
+      "E": 2
+    },
+    "active": 1
+  },
+  "cards": [
+    {
+      "id": "a1-morning-routine",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+      "title": "A1",
+      "question_text": "아침 루틴을 거의 같은 시간에 지키는 편이다.",
+      "sub_text": "일정 안정성/자기관리 패턴 확인",
+      "group": "A",
+      "score_yes": { "planner": 2, "balancer": 1 },
+      "score_no": { "explorer": 1, "connector": 1 },
+      "active": 1
+    },
+    {
+      "id": "a2-fast-choice",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+      "title": "A2",
+      "question_text": "결정할 때 오래 고민하기보다 빠르게 선택한다.",
+      "sub_text": "의사결정 속도 확인",
+      "group": "A",
+      "score_yes": { "executor": 2, "explorer": 1 },
+      "score_no": { "planner": 1, "balancer": 1 },
+      "active": 1
+    },
+    {
+      "id": "a3-social-energy",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+      "title": "A3",
+      "question_text": "혼자보다 사람들과 있을 때 에너지가 더 생긴다.",
+      "sub_text": "대인 지향성 확인",
+      "group": "A",
+      "score_yes": { "connector": 2, "explorer": 1 },
+      "score_no": { "planner": 1, "executor": 1 },
+      "active": 1
+    },
+    {
+      "id": "a4-focus-block",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+      "title": "A4",
+      "question_text": "중요한 작업은 시간 블록을 나눠 집중하는 편이다.",
+      "sub_text": "집중 전략 확인",
+      "group": "A",
+      "score_yes": { "planner": 2, "executor": 1 },
+      "score_no": { "explorer": 1, "connector": 1 },
+      "active": 1
+    },
+
+    {
+      "id": "b1-learning-style",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+      "title": "B1",
+      "question_text": "새로운 것을 배울 때 계획표를 먼저 만든다.",
+      "sub_text": "학습 방식 확인",
+      "group": "B",
+      "score_yes": { "planner": 2, "balancer": 1 },
+      "score_no": { "explorer": 2 },
+      "active": 1
+    },
+    {
+      "id": "b2-trial-first",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+      "title": "B2",
+      "question_text": "설명서를 보기 전에 먼저 실행해 보는 편이다.",
+      "sub_text": "실험 성향 확인",
+      "group": "B",
+      "score_yes": { "explorer": 2, "executor": 1 },
+      "score_no": { "planner": 2 },
+      "active": 1
+    },
+    {
+      "id": "b3-team-sync",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+      "title": "B3",
+      "question_text": "팀 작업에서 자주 중간 공유를 하는 편이다.",
+      "sub_text": "협업 커뮤니케이션 확인",
+      "group": "B",
+      "score_yes": { "connector": 2, "balancer": 1 },
+      "score_no": { "executor": 1, "planner": 1 },
+      "active": 1
+    },
+    {
+      "id": "b4-deadline-boost",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+      "title": "B4",
+      "question_text": "마감 직전에 몰입도가 크게 올라간다.",
+      "sub_text": "압박 상황 반응 확인",
+      "group": "B",
+      "score_yes": { "executor": 2 },
+      "score_no": { "planner": 1, "balancer": 1 },
+      "active": 1
+    },
+
+    {
+      "id": "c1-risk-attitude",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+      "title": "C1",
+      "question_text": "조금 불확실해도 흥미로운 선택을 해보는 편이다.",
+      "sub_text": "리스크 성향 확인",
+      "group": "C",
+      "score_yes": { "explorer": 2 },
+      "score_no": { "planner": 2 },
+      "active": 1
+    },
+    {
+      "id": "c2-energy-manage",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+      "title": "C2",
+      "question_text": "하루 에너지를 생각해 중요한 일 순서를 조정한다.",
+      "sub_text": "자원 배분 감각 확인",
+      "group": "C",
+      "score_yes": { "balancer": 2, "planner": 1 },
+      "score_no": { "executor": 1 },
+      "active": 1
+    },
+    {
+      "id": "c3-feedback-open",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+      "title": "C3",
+      "question_text": "피드백을 받으면 바로 적용해보는 편이다.",
+      "sub_text": "수용/적용 속도 확인",
+      "group": "C",
+      "score_yes": { "executor": 2, "connector": 1 },
+      "score_no": { "planner": 1, "explorer": 1 },
+      "active": 1
+    },
+    {
+      "id": "c4-context-switch",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+      "title": "C4",
+      "question_text": "한 가지보다 여러 일을 번갈아 하는 편이 편하다.",
+      "sub_text": "컨텍스트 전환 선호 확인",
+      "group": "C",
+      "score_yes": { "explorer": 1, "connector": 1 },
+      "score_no": { "planner": 2 },
+      "active": 1,
+      "prism_background": "linear-gradient(110deg, rgba(255, 255, 255, 0.07) 18%, rgba(255, 181, 107, 0.3) 32%, rgba(92, 245, 255, 0.24) 48%, rgba(255, 107, 129, 0.32) 64%, rgba(255, 255, 255, 0.06) 78%)"
+    },
+
+    {
+      "id": "d1-goal-clarity",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+      "title": "D1",
+      "question_text": "목표를 수치로 정의하면 실행이 훨씬 쉬워진다.",
+      "sub_text": "목표 설정 방식 확인",
+      "group": "D",
+      "score_yes": { "planner": 2, "executor": 1 },
+      "score_no": { "explorer": 1, "connector": 1 },
+      "active": 1
+    },
+    {
+      "id": "d2-improvise",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+      "title": "D2",
+      "question_text": "계획이 틀어져도 즉흥적으로 잘 대응한다.",
+      "sub_text": "유연 대응 능력 확인",
+      "group": "D",
+      "score_yes": { "explorer": 2, "balancer": 1 },
+      "score_no": { "planner": 2 },
+      "active": 1
+    },
+    {
+      "id": "d3-conflict-style",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+      "title": "D3",
+      "question_text": "갈등 상황에서 중간 합의를 빠르게 찾는 편이다.",
+      "sub_text": "갈등 해결 스타일 확인",
+      "group": "D",
+      "score_yes": { "balancer": 2, "connector": 1 },
+      "score_no": { "executor": 1, "planner": 1 },
+      "active": 1
+    },
+    {
+      "id": "d4-self-drive",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+      "title": "D4",
+      "question_text": "누가 시키지 않아도 스스로 과제를 찾아 진행한다.",
+      "sub_text": "자기주도 실행력 확인",
+      "group": "D",
+      "score_yes": { "executor": 2, "planner": 1 },
+      "score_no": { "connector": 1, "balancer": 1 },
+      "active": 1
+    },
+
+    {
+      "id": "e1-networking",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+      "title": "E1",
+      "question_text": "새로운 사람과 연결되는 자리를 의식적으로 만든다.",
+      "sub_text": "관계 확장 성향 확인",
+      "group": "E",
+      "score_yes": { "connector": 2, "explorer": 1 },
+      "score_no": { "planner": 1, "executor": 1 },
+      "active": 1
+    },
+    {
+      "id": "e2-review-habit",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+      "title": "E2",
+      "question_text": "하루를 마무리하며 무엇을 배웠는지 짧게 정리한다.",
+      "sub_text": "회고 습관 확인",
+      "group": "E",
+      "score_yes": { "balancer": 2, "planner": 1 },
+      "score_no": { "explorer": 1 },
+      "active": 1
+    },
+    {
+      "id": "e3-action-first",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+      "title": "E3",
+      "question_text": "완벽하지 않아도 일단 실행해보는 편이다.",
+      "sub_text": "실행 우선 성향 확인",
+      "group": "E",
+      "score_yes": { "executor": 2, "explorer": 1 },
+      "score_no": { "planner": 2 },
+      "active": 1,
+      "front_overlay_background": "linear-gradient(180deg, rgb(93 162 255 / 10%), rgb(9 14 23 / 70%))"
+    },
+    {
+      "id": "e4-balance-point",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+      "title": "E4",
+      "question_text": "성과와 휴식 사이의 균형을 자주 점검한다.",
+      "sub_text": "밸런스 유지 감각 확인",
+      "group": "E",
+      "score_yes": { "balancer": 2, "planner": 1 },
+      "score_no": { "executor": 1, "connector": 1 },
+      "active": 1
+    }
+  ],
+  "results": [
+    {
+      "result_code": "planner",
+      "label": "전략 설계형",
+      "post_id": 0,
+      "result_url": "https://koreahi.com/why-local-people-avoid-sorae-pogu-port-incheon-korea-tourist-scam-issue/",
+      "result_image_url": "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-4.webp",
+      "result_summary": "계획 수립과 구조화가 강점입니다. 명확한 기준을 세우면 퍼포먼스가 크게 오릅니다.",
+      "result_cta_label": "자세히 보기",
+      "active": 1
+    },
+    {
+      "result_code": "executor",
+      "label": "실행 가속형",
+      "post_id": 0,
+      "result_url": "https://koreahi.com/about/",
+      "result_image_url": "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-2.webp",
+      "result_summary": "속도감 있는 실행력이 강점입니다. 우선 움직이고 개선하는 방식이 잘 맞습니다.",
+      "result_cta_label": "자세히 보기",
+      "active": 1
+    },
+    {
+      "result_code": "connector",
+      "label": "관계 확장형",
+      "post_id": 0,
+      "result_url": "https://koreahi.com/news/",
+      "result_image_url": "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-1.webp",
+      "result_summary": "사람과 정보 흐름을 연결하는 능력이 뛰어납니다. 협업 환경에서 큰 힘을 냅니다.",
+      "result_cta_label": "자세히 보기",
+      "active": 1
+    },
+    {
+      "result_code": "explorer",
+      "label": "탐험 실험형",
+      "post_id": 0,
+      "result_url": "https://koreahi.com/contact/",
+      "result_image_url": "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-3.webp",
+      "result_summary": "새로운 시도와 학습 전환이 빠릅니다. 다양한 옵션을 실험할 때 성과가 납니다.",
+      "result_cta_label": "자세히 보기",
+      "active": 1
+    },
+    {
+      "result_code": "balancer",
+      "label": "균형 조율형",
+      "post_id": 0,
+      "result_url": "https://koreahi.com/services/",
+      "result_image_url": "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-4.webp",
+      "result_summary": "상황별 우선순위 조정과 안정적인 페이스 유지가 강점입니다.",
+      "result_cta_label": "자세히 보기",
+      "active": 1
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+﻿{
+    "basic":  {
+                  "id":  "qa-tie-sample-v1",
+                  "title":  "QA ?? ?? ??? (Tie Break ??)",
+                  "slug_alias":  "qa-tie-break-v1",
+                  "description":  "?? ??? ???? ??? ????? ??? QA ?? ?? ??????.",
+                  "card_back_image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+                  "start_image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+                  "front_overlay_background":  "linear-gradient(185deg, rgb(93 162 255 / 12%), rgb(18 9 11 / 72%))",
+                  "back_overlay_background":  "linear-gradient(185deg, rgb(93 162 255 / 12%), rgb(18 9 11 / 72%))",
+                  "prism_background":  "linear-gradient(110deg, rgba(255, 255, 255, 0.05) 18%, rgba(255, 107, 129, 0.3) 32%, rgba(92, 245, 255, 0.26) 48%, rgba(255, 201, 107, 0.34) 64%, rgba(255, 255, 255, 0.05) 78%)",
+                  "display_count":  10,
+                  "pool_count":  20,
+                  "groups_quota":  {
+                                       "A":  2,
+                                       "B":  2,
+                                       "C":  2,
+                                       "D":  2,
+                                       "E":  2
+                                   },
+                  "active":  1
+              },
+    "cards":  [
+                  {
+                      "id":  "tie-01",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+                      "title":  "T01",
+                      "question_text":  "?? ?? ?? 1: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "A",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-02",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+                      "title":  "T02",
+                      "question_text":  "?? ?? ?? 2: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "B",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-03",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+                      "title":  "T03",
+                      "question_text":  "?? ?? ?? 3: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "C",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-04",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+                      "title":  "T04",
+                      "question_text":  "?? ?? ?? 4: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "D",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-05",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+                      "title":  "T05",
+                      "question_text":  "?? ?? ?? 5: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "E",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-06",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+                      "title":  "T06",
+                      "question_text":  "?? ?? ?? 6: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "A",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-07",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+                      "title":  "T07",
+                      "question_text":  "?? ?? ?? 7: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "B",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-08",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+                      "title":  "T08",
+                      "question_text":  "?? ?? ?? 8: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "C",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-09",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+                      "title":  "T09",
+                      "question_text":  "?? ?? ?? 9: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "D",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-10",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+                      "title":  "T10",
+                      "question_text":  "?? ?? ?? 10: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "E",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-11",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+                      "title":  "T11",
+                      "question_text":  "?? ?? ?? 11: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "A",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-12",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+                      "title":  "T12",
+                      "question_text":  "?? ?? ?? 12: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "B",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-13",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+                      "title":  "T13",
+                      "question_text":  "?? ?? ?? 13: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "C",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-14",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+                      "title":  "T14",
+                      "question_text":  "?? ?? ?? 14: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "D",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-15",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+                      "title":  "T15",
+                      "question_text":  "?? ?? ?? 15: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "E",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-16",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+                      "title":  "T16",
+                      "question_text":  "?? ?? ?? 16: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "A",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-17",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+                      "title":  "T17",
+                      "question_text":  "?? ?? ?? 17: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "B",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-18",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/b8.webp",
+                      "title":  "T18",
+                      "question_text":  "?? ?? ?? 18: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "C",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-19",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too2.jpg",
+                      "title":  "T19",
+                      "question_text":  "?? ?? ?? 19: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "D",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  },
+                  {
+                      "id":  "tie-20",
+                      "image_url":  "https://koreahi.com/wp-content/uploads/2026/04/too6.png",
+                      "title":  "T20",
+                      "question_text":  "?? ?? ?? 20: ? ??? ?? ??? ?? ?? ?? ??? ???? ?????.",
+                      "sub_text":  "Tie QA ??: ?? ?? ????(?? ? ? ?? ??) ??",
+                      "group":  "E",
+                      "score_yes":  {
+                                        "planner":  1,
+                                        "executor":  1,
+                                        "connector":  1,
+                                        "explorer":  1
+                                    },
+                      "score_no":  {
+                                       "planner":  1,
+                                       "executor":  1,
+                                       "connector":  1,
+                                       "explorer":  1
+                                   },
+                      "active":  1
+                  }
+              ],
+    "results":  [
+                    {
+                        "result_code":  "planner",
+                        "label":  "?? ??? A (planner)",
+                        "post_id":  0,
+                        "result_url":  "https://koreahi.com/why-local-people-avoid-sorae-pogu-port-incheon-korea-tourist-scam-issue/",
+                        "result_image_url":  "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-4.webp",
+                        "result_summary":  "?? ???? ??? ?????, ???? tie-break(? ?? ??) ??? ?????.",
+                        "result_cta_label":  "??? ??",
+                        "active":  1
+                    },
+                    {
+                        "result_code":  "executor",
+                        "label":  "?? ??? B (executor)",
+                        "post_id":  0,
+                        "result_url":  "https://koreahi.com/about/",
+                        "result_image_url":  "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-2.webp",
+                        "result_summary":  "planner? ?? ??? ???? ???????.",
+                        "result_cta_label":  "??? ??",
+                        "active":  1
+                    },
+                    {
+                        "result_code":  "connector",
+                        "label":  "?? ??? C (connector)",
+                        "post_id":  0,
+                        "result_url":  "https://koreahi.com/news/",
+                        "result_image_url":  "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-1.webp",
+                        "result_summary":  "executor? ?? ??? ???? ???????.",
+                        "result_cta_label":  "??? ??",
+                        "active":  1
+                    },
+                    {
+                        "result_code":  "explorer",
+                        "label":  "?? ??? D (explorer)",
+                        "post_id":  0,
+                        "result_url":  "https://koreahi.com/contact/",
+                        "result_image_url":  "https://koreahi.com/wp-content/uploads/2024/01/article-thumb-3.webp",
+                        "result_summary":  "?? ?? ??? ?? ??? ?? ??? ?? ???????.",
+                        "result_cta_label":  "??? ??",
+                        "active":  1
+                    }
+                ]
+}

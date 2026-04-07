@@ -1,0 +1,270 @@
+﻿{
+  "basic": {
+    "title": "연애 성향 테스트",
+    "slug_alias": "love-type",
+    "description": "카드 질문에 YES/NO로 답하고 나의 연애 성향을 확인하세요.",
+    "card_back_image_url": "https://koreahi.com/wp-content/uploads/2026/04/b2.jpg",
+    "display_count": 10,
+    "pool_count": 20,
+    "groups_quota": {
+      "A": 2,
+      "B": 2,
+      "C": 2,
+      "D": 2,
+      "E": 2
+    },
+    "active": 1
+  },
+  "cards": [
+    {
+      "id": "a1-first-contact",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+      "title": "A1",
+      "question_text": "상대가 바빠 보여도 내가 먼저 연락하는 편이다.",
+      "sub_text": "관계 온도를 내가 먼저 올리는 타입인지 확인합니다.",
+      "group": "A",
+      "score_yes": { "romantic": 2, "balanced": 1 },
+      "score_no": { "rational": 1, "independent": 1 },
+      "active": 1
+    },
+    {
+      "id": "a2-reply-speed",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+      "title": "A2",
+      "question_text": "답장이 늦으면 이유를 상상하게 된다.",
+      "sub_text": "불안 반응/해석 성향을 봅니다.",
+      "group": "A",
+      "score_yes": { "romantic": 2 },
+      "score_no": { "rational": 1, "balanced": 1 },
+      "active": 1
+    },
+    {
+      "id": "a3-expression",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b5.jpg",
+      "title": "A3",
+      "question_text": "좋아하면 자주 표현해야 한다고 생각한다.",
+      "sub_text": "감정 표현의 강도를 확인합니다.",
+      "group": "A",
+      "score_yes": { "romantic": 2 },
+      "score_no": { "independent": 1, "rational": 1 },
+      "active": 1
+    },
+    {
+      "id": "a4-emotion-first",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+      "title": "A4",
+      "question_text": "상황 판단보다 감정 공감이 먼저다.",
+      "sub_text": "의사결정에서 감정/논리 우선순위를 봅니다.",
+      "group": "A",
+      "score_yes": { "romantic": 2, "balanced": 1 },
+      "score_no": { "rational": 2 },
+      "active": 1
+    },
+    {
+      "id": "b1-planned-date",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+      "title": "B1",
+      "question_text": "데이트는 즉흥보다 계획형이 편하다.",
+      "sub_text": "구조화 선호를 확인합니다.",
+      "group": "B",
+      "score_yes": { "rational": 2, "balanced": 1 },
+      "score_no": { "romantic": 1 },
+      "active": 1
+    },
+    {
+      "id": "b2-conflict-delay",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b5.jpg",
+      "title": "B2",
+      "question_text": "갈등이 생기면 시간을 두고 정리 후 말한다.",
+      "sub_text": "대화 템포와 처리 방식을 확인합니다.",
+      "group": "B",
+      "score_yes": { "rational": 2 },
+      "score_no": { "romantic": 1, "independent": 1 },
+      "active": 1
+    },
+    {
+      "id": "b3-criteria-first",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+      "title": "B3",
+      "question_text": "호감이 있어도 기준에 맞는지 먼저 본다.",
+      "sub_text": "감정 이전의 필터 강도를 봅니다.",
+      "group": "B",
+      "score_yes": { "rational": 2 },
+      "score_no": { "romantic": 2 },
+      "active": 1
+    },
+    {
+      "id": "b4-risk-check",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+      "title": "B4",
+      "question_text": "관계 시작 전 예상 리스크를 계산한다.",
+      "sub_text": "안정 지향/분석 지향을 확인합니다.",
+      "group": "B",
+      "score_yes": { "rational": 2, "balanced": 1 },
+      "score_no": { "romantic": 1 },
+      "active": 1
+    },
+    {
+      "id": "c1-me-time",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b5.jpg",
+      "title": "C1",
+      "question_text": "연애 중에도 개인 시간이 꼭 필요하다.",
+      "sub_text": "관계와 자율성의 균형을 봅니다.",
+      "group": "C",
+      "score_yes": { "independent": 2, "balanced": 1 },
+      "score_no": { "romantic": 1 },
+      "active": 1
+    },
+    {
+      "id": "c2-schedule-independence",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+      "title": "C2",
+      "question_text": "하루 일정 대부분을 상대에 맞추진 않는다.",
+      "sub_text": "의존/독립 성향을 확인합니다.",
+      "group": "C",
+      "score_yes": { "independent": 2 },
+      "score_no": { "romantic": 2 },
+      "active": 1
+    },
+    {
+      "id": "c3-boundary",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+      "title": "C3",
+      "question_text": "사소한 것도 공유하기보다 경계를 둔다.",
+      "sub_text": "개방성과 경계 수준을 봅니다.",
+      "group": "C",
+      "score_yes": { "independent": 2, "rational": 1 },
+      "score_no": { "romantic": 1, "balanced": 1 },
+      "active": 1
+    },
+    {
+      "id": "c4-self-recovery",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b5.jpg",
+      "title": "C4",
+      "question_text": "힘들 때도 먼저 혼자 정리하는 편이다.",
+      "sub_text": "정서 회복 루틴을 확인합니다.",
+      "group": "C",
+      "score_yes": { "independent": 2 },
+      "score_no": { "romantic": 1, "balanced": 1 },
+      "active": 1
+    },
+    {
+      "id": "d1-balance",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+      "title": "D1",
+      "question_text": "내 의견과 상대 의견의 중간점을 찾으려 한다.",
+      "sub_text": "타협/조율 습관을 봅니다.",
+      "group": "D",
+      "score_yes": { "balanced": 2 },
+      "score_no": { "independent": 1, "romantic": 1 },
+      "active": 1
+    },
+    {
+      "id": "d2-emotion-logic",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+      "title": "D2",
+      "question_text": "감정도 중요하지만 근거도 함께 본다.",
+      "sub_text": "이중 판단 프레임을 확인합니다.",
+      "group": "D",
+      "score_yes": { "balanced": 2, "rational": 1 },
+      "score_no": { "romantic": 1 },
+      "active": 1
+    },
+    {
+      "id": "d3-pace",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b5.jpg",
+      "title": "D3",
+      "question_text": "관계 속도는 둘 다 편한 템포로 맞춘다.",
+      "sub_text": "페이스 조정 성향을 봅니다.",
+      "group": "D",
+      "score_yes": { "balanced": 2 },
+      "score_no": { "romantic": 1, "independent": 1 },
+      "active": 1
+    },
+    {
+      "id": "d4-long-term",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+      "title": "D4",
+      "question_text": "짧은 설렘보다 오래 갈 안정감을 본다.",
+      "sub_text": "관계의 시간축 선호를 확인합니다.",
+      "group": "D",
+      "score_yes": { "balanced": 2, "rational": 1 },
+      "score_no": { "romantic": 2 },
+      "active": 1
+    },
+    {
+      "id": "e1-fast-progress",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+      "title": "E1",
+      "question_text": "좋다고 느끼면 빠르게 관계를 진전시키는 편이다.",
+      "sub_text": "결정 속도 성향을 봅니다.",
+      "group": "E",
+      "score_yes": { "romantic": 2 },
+      "score_no": { "rational": 1, "balanced": 1 },
+      "active": 1
+    },
+    {
+      "id": "e2-principle",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b5.jpg",
+      "title": "E2",
+      "question_text": "상대가 좋아도 내 원칙은 쉽게 바꾸지 않는다.",
+      "sub_text": "자기기준 유지 강도를 확인합니다.",
+      "group": "E",
+      "score_yes": { "independent": 2, "rational": 1 },
+      "score_no": { "romantic": 1 },
+      "active": 1
+    },
+    {
+      "id": "e3-investment",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+      "title": "E3",
+      "question_text": "시간과 에너지를 관계에 우선 투자한다.",
+      "sub_text": "투자 우선순위를 봅니다.",
+      "group": "E",
+      "score_yes": { "romantic": 2, "balanced": 1 },
+      "score_no": { "independent": 1 },
+      "active": 1
+    },
+    {
+      "id": "e4-adapt",
+      "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+      "title": "E4",
+      "question_text": "상황에 따라 방식(감성/이성)을 유연하게 바꾼다.",
+      "sub_text": "적응형 대응 성향을 확인합니다.",
+      "group": "E",
+      "score_yes": { "balanced": 2 },
+      "score_no": { "rational": 1, "independent": 1 },
+      "active": 1
+    }
+  ],
+  "results": [
+    {
+      "result_code": "romantic",
+      "label": "감성 몰입형",
+      "post_id": 101,
+      "result_url": "",
+      "active": 1
+    },
+    {
+      "result_code": "rational",
+      "label": "이성 분석형",
+      "post_id": 102,
+      "result_url": "",
+      "active": 1
+    },
+    {
+      "result_code": "independent",
+      "label": "독립 주도형",
+      "post_id": 103,
+      "result_url": "",
+      "active": 1
+    },
+    {
+      "result_code": "balanced",
+      "label": "균형 안정형",
+      "post_id": 104,
+      "result_url": "",
+      "active": 1
+    }
+  ]
+}

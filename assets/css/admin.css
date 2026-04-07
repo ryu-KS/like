@@ -1,0 +1,61 @@
+﻿.taro-fortune-admin-wrap {
+  font-family: "Nanum Gothic", "Noto Sans KR", sans-serif;
+}
+
+.taro-admin-layout {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: minmax(250px, 300px) minmax(320px, 1fr);
+  align-items: start;
+}
+
+.taro-fortune-panel {
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.taro-test-list { margin-top: 12px; display: grid; gap: 8px; }
+.taro-test-link {
+  display: block;
+  padding: 10px;
+  border: 1px solid #dcdcde;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #1f2937;
+}
+.taro-test-link span { display: block; margin-top: 4px; color: #6b7280; font-size: 12px; }
+.taro-test-link.is-active { border-color: #2563eb; box-shadow: 0 0 0 1px #2563eb inset; }
+
+.taro-admin-tabs { margin: 16px 0; border-bottom: 1px solid #dcdcde; display: flex; gap: 8px; }
+.taro-admin-tab {
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 8px 8px 0 0;
+  color: #334155;
+}
+.taro-admin-tab.is-active { background: #f1f5f9; color: #0f172a; font-weight: 700; }
+
+.taro-tab-panel { display: none; }
+.taro-tab-panel.is-active { display: block; }
+
+.taro-fortune-panel label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.taro-inline-grid { display: grid; gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.taro-fortune-media-row { display: flex; gap: 8px; align-items: center; }
+.taro-fortune-media-row .regular-text { flex: 1; }
+
+.taro-fortune-card-list { display: grid; gap: 12px; margin-top: 10px; }
+.taro-fortune-card-item { border: 1px solid #dcdcde; border-radius: 8px; padding: 12px; }
+.taro-fortune-card-item img { width: 120px; border-radius: 6px; margin-bottom: 8px; }
+
+@media (max-width: 1080px) {
+  .taro-admin-layout { grid-template-columns: 1fr; }
+  .taro-inline-grid { grid-template-columns: 1fr; }
+}

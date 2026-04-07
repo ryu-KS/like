@@ -1,0 +1,36 @@
+<?php
+/**
+ * NinjaFirewall allowlist for YesOrNo plugin endpoints.
+ * Keep this file minimal and restrictive.
+ */
+
+$uri = $_SERVER['REQUEST_URI'] ?? '';
+$method = $_SERVER['REQUEST_METHOD'] ?? 'GET';
+
+// Allow bootstrap endpoint (GET)
+if (
+    $method === 'GET' &&
+    preg_match('#^/wp-json/yesorno/v1/test/[a-z0-9\-]+/bootstrap(?:\?.*)?$#i', $uri)
+) {
+    define('NFW_UWL', true);
+    return 'ALLOW';
+}
+
+// Allow session endpoint (GET) - keep if legacy flow still calls it
+if (
+    $method === 'GET' &&
+    preg_match('#^/wp-json/yesorno/v1/test/[a-z0-9\-]+/session(?:\?.*)?$#i', $uri)
+) {
+    define('NFW_UWL', true);
+    return 'ALLOW';
+}
+
+// Allow result endpoint (POST)
+if (
+    $method === 'POST' &&
+    preg_match('#^/wp-json/yesorno/v1/test/[a-z0-9\-]+/result(?:\?.*)?$#i', $uri)
+) {
+    define('NFW_UWL', true);
+    return 'ALLOW';
+}
+

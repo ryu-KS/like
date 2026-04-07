@@ -1,0 +1,31 @@
+[
+    {
+        "id": "haengun-fortune",
+        "slug_alias": "haengun",
+        "shortcode_tag": "taro_fortune_haengun",
+        "title": "Haengun Fortune",
+        "description": "Sample fortune set",
+        "card_back_image_url": "https://koreahi.com/wp-content/uploads/2026/04/b2.jpg",
+        "draw_count": 3,
+        "cards": [
+            {
+                "id": "haengun-card-1",
+                "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b3.jpg",
+                "title": "Chance",
+                "description": "A small choice may open a larger opportunity."
+            },
+            {
+                "id": "haengun-card-2",
+                "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b4.jpg",
+                "title": "Balance",
+                "description": "Steady emotions support better timing and better dialogue."
+            },
+            {
+                "id": "haengun-card-3",
+                "image_url": "https://koreahi.com/wp-content/uploads/2026/04/b5.jpg",
+                "title": "Expansion",
+                "description": "Today is suitable for scaling a plan one step further."
+            }
+        ]
+    }
+]
